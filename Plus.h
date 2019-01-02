@@ -5,6 +5,7 @@
 
 class Plus : public BinaryExpression {
 public:
+    Plus();
     Plus(Expression *left, Expression *right);
 
     double calculate() const;

@@ -9,6 +9,7 @@
 
 class Minus : public BinaryExpression {
 public:
+    Minus();
     Minus(Expression *left, Expression *right);
 
     double calculate() const;

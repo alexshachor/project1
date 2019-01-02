@@ -5,6 +5,7 @@
 
 class Div : public BinaryExpression {
 public:
+    Div();
     Div(Expression *left, Expression *right);
 
     double calculate() const;

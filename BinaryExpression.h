@@ -9,7 +9,13 @@ protected:
     Expression *right;
 
 public:
+    BinaryExpression() {}
     BinaryExpression(Expression *left, Expression *right) {
+        this->left = left;
+        this->right = right;
+    }
+
+    void setExpressions(Expression *left, Expression *right) {
         this->left = left;
         this->right = right;
     }

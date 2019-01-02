@@ -5,6 +5,7 @@
 
 class Mul : public BinaryExpression {
 public:
+    Mul();
     Mul(Expression *left, Expression *right);
 
     double calculate() const;
